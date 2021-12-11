@@ -1,0 +1,29 @@
+  body{
+            display: flex;
+            align-items:center;
+            padding: 10px;
+        }
+
+        table{
+            width: 100%;
+            max-width: 1200px;
+            border-spacing: 0;
+            border-radius: 1em;
+            overflow: hidden;
+            border: 1px solid #ddd;
+            margin:auto;
+        }
+        .th-1{
+            background: #00008b;
+            text-align: left;
+            text-transform: uppercase;
+            padding: 1em;
+            color:white;
+        }
+        td{
+            padding: 1em;
+        }
+
+        tr:nth-child(even){
+            background-color:#ddd;
+        }
