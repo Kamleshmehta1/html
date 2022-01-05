@@ -8,8 +8,8 @@ function selectionSort(arr) {
     }
     if (min !== i) {
       [arr[i], arr[min]] = [arr[min], arr[i]];
-      
     }
+    console.log(`after ${i+1} th pass,Arr is ${arr}`);
   }
   return arr;
 }
