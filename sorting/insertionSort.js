@@ -11,6 +11,6 @@ function insertionSort(arr) {
   return arr;
 }
 
-var arr = [23,1,10,5,2];
+var arr = [23, 1, 10, 5, 2];
 
 console.log(insertionSort(arr));
